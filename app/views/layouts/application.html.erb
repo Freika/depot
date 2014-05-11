@@ -20,6 +20,9 @@
       <li><a href="">Contact</a></li>
     </ul>
     <%= Time.now %>
+    <% if session[:counter] <= 5 %>
+      <%= session[:counter] %>
+    <% end %>
   </div>
   <div id="main">
     <%= yield %>
