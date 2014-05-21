@@ -20,6 +20,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring', '1.1.2',       group: :development
+gem 'better_errors', group: :development
 
 # group :development, :test do
 #   gem 'rspec-rails', '~> 2.10.1'
